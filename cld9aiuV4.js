@@ -237,6 +237,7 @@ async function displayAiMessage(message) {
 
                 fDiv.addEventListener('click', function () {
 
+                    fDiv.style.backgroundColor = 'black';
                     ShowElement(descriptionWrapper);
                     if (descriptionWrapper) {
                         descriptionWrapper.style.display = 'fluid';
